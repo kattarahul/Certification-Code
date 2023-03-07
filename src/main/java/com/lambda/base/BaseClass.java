@@ -24,8 +24,8 @@ public class BaseClass {
     FirefoxOptions firefoxOptions;
     InternetExplorerOptions internetExplorerOptions;
 
-    private String username="rahulkatta72";
-    private String accesskey ="MnK5oIQ2n8iFNb5B45IUV9YF46vmHjkjel2O9lyb0jZHyAe3cB";
+    private String username="katta061296";
+    private String accesskey ="KWgAlNWmzfPVAXJEurBuanuK8RG0NntKuxFZlKv12ewVJ9czuM";
     private String hub ="@hub.lambdatest.com/wd/hub";
 
     @Parameters({"browser","version","Platform"})
