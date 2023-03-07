@@ -2,37 +2,37 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="tests">
 
-<!--    <test verbose="2" preserve-order="true" name="chrome">-->
-<!--        <parameter name="browser" value="chrome"></parameter>-->
-<!--        <parameter name="version" value="88.0"></parameter>-->
-<!--        <parameter name="Platform" value="Windows 10"></parameter>-->
+    <test verbose="2" preserve-order="true" name="chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="version" value="88.0"></parameter>
+        <parameter name="Platform" value="Windows 10"></parameter>
 
-<!--        <classes>-->
-<!--            <class name="com.lambda.test.TestClass">-->
-<!--                <methods>-->
-<!--                    <include name="moduleInputForms"/>-->
-<!--                    <include name="RangeSlider"/>-->
-<!--                    <include name="inputFormValidation"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+        <classes>
+            <class name="com.lambda.test.TestClass">
+                <methods>
+                    <include name="moduleInputForms"/>
+                    <include name="RangeSlider"/>
+                    <include name="inputFormValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 
 
-<!--    <test verbose="2" preserve-order="true" name="edge">-->
-<!--        <parameter name="browser" value="edge"></parameter>-->
-<!--        <parameter name="version" value="87.0"></parameter>-->
-<!--        <parameter name="Platform" value="macOS Sierra"></parameter>-->
-<!--        <classes>-->
-<!--            <class name="com.lambda.test.TestClass">-->
-<!--                <methods>-->
-<!--                    <include name="moduleInputForms"/>-->
-<!--                    <include name="RangeSlider"/>-->
-<!--                    <include name="inputFormValidation"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test verbose="2" preserve-order="true" name="edge">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="version" value="87.0"></parameter>
+        <parameter name="Platform" value="macOS Sierra"></parameter>
+        <classes>
+            <class name="com.lambda.test.TestClass">
+                <methods>
+                    <include name="moduleInputForms"/>
+                    <include name="RangeSlider"/>
+                    <include name="inputFormValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 
 
 
@@ -52,20 +52,20 @@
         </classes>
     </test>
 
-<!--    <test verbose="2" preserve-order="true"-->
-<!--          name="internet explorer">-->
-<!--        <parameter name="browser" value="internet explorer"></parameter>-->
-<!--        <parameter name="version" value="11.0"></parameter>-->
-<!--        <parameter name="Platform" value="Windows 10"></parameter>-->
-<!--        <classes>-->
-<!--            <class name="com.lambda.test.TestClass">-->
-<!--                <methods>-->
-<!--                    <include name="moduleInputForms"/>-->
-<!--                    <include name="RangeSlider"/>-->
-<!--                    <include name="inputFormValidation"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test verbose="2" preserve-order="true"
+          name="internet explorer">
+        <parameter name="browser" value="internet explorer"></parameter>
+        <parameter name="version" value="11.0"></parameter>
+        <parameter name="Platform" value="Windows 10"></parameter>
+        <classes>
+            <class name="com.lambda.test.TestClass">
+                <methods>
+                    <include name="moduleInputForms"/>
+                    <include name="RangeSlider"/>
+                    <include name="inputFormValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 
 </suite>
